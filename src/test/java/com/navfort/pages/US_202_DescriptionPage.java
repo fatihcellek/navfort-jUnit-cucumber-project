@@ -13,21 +13,6 @@ public class US_202_DescriptionPage {
     }
 
 
-    @FindBy(id = "prependedInput")
-    public WebElement userName;
-
-    @FindBy(id = "prependedInput2")
-    public WebElement passWord;
-
-    @FindBy(id = "_submit")
-    public WebElement loginBtn;
-
-    public void login(String username,String password){
-        userName.sendKeys(username);
-        passWord.sendKeys(password);
-        loginBtn.click();
-
-    }
 
     @FindBy(xpath = "(//span[normalize-space(text())='Activities'])[1]")
     public WebElement activitiesModule;

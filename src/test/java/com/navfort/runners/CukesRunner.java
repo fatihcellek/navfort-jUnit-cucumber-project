@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
 
         dryRun =false,
 
-        tags = "",
+        tags = "@B29G2-225",
 
         publish = true //generating a report with public link
 )

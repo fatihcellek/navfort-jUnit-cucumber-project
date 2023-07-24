@@ -16,8 +16,28 @@ public class US_198_DescriptionPage {
     @FindBy(xpath = "//span[.='Vehicles']")
     public WebElement Vehicles;
 
-    @FindBy(css = "/html[1]/body[1]/div[2]/div[2]/div[1]/div[2]/div[3]/div[3]/div[2]/div[2]/div[2]/div[1]/table[1]/tbody[1]/tr[14]/td[20]/div[1]/div[1]/ul[1]/li[1]/ul[1]/li[3]/a[1]")
+
+    @FindBy(xpath = "//tr[9]/td[20]/div/div/a")
     public WebElement Dots;
+
+
+
+
+    @FindBy(xpath = "//tr[9]/td[20]/div/div//li//a")
+    public WebElement ViewIcon;
+
+//    @FindBy(xpath = "((//a[@class='dropdown-toggle'])[9]/li[1]")
+//    public WebElement ViewIcon;
+
+
+
+
+    @FindBy(xpath = "//tr[9]/td[20]/li[2]/a")
+    public WebElement EditIcon;
+
+    @FindBy(xpath = "//tr[9]/td[20]/li[3]/a")
+    public WebElement DeleteIcon;
+
 
 
 

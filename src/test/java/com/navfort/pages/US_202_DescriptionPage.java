@@ -8,9 +8,8 @@ import org.openqa.selenium.support.PageFactory;
 
 public class US_202_DescriptionPage {
 
-    public US_202_DescriptionPage(){
-        PageFactory.initElements(Driver.getDriver(), this);
-    }
+    public US_202_DescriptionPage()
+    {PageFactory.initElements(Driver.getDriver(), this);}
 
 
 

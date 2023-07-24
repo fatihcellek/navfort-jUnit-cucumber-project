@@ -29,10 +29,6 @@ public class US_202_Description_StepDefinitions {
         String expectedTitle = "Dashboard";
 
 
-        // we need to use explicit wait to handle conditions
-        // implicit wait doesn't work for assertion because there is no findElement(s)/FindBy to look for
-//        WebDriverWait wait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(20));
-//        wait.until(ExpectedConditions.invisibilityOf(vytrackLoginPage.loadingBar));
 
         Assert.assertEquals("Title verification failed!", expectedTitle, actualTitle);
 

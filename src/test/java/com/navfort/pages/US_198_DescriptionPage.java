@@ -23,7 +23,7 @@ public class US_198_DescriptionPage {
 
 
 
-    @FindBy(xpath = "//tr[9]/td[20]/div/div//li//a")
+   @FindBy(xpath = "//tr[9]/td[20]/div/div//li//a")
     public WebElement ViewIcon;
 
 //    @FindBy(xpath = "((//a[@class='dropdown-toggle'])[9]/li[1]")

@@ -15,3 +15,4 @@ Feature:As a user, I want to see edit car info icons from the Vehicle page.
 		And user click on vehicle
 		And user must see 3 dot"..." far right of the page
 		Then users should see “view, edit, delete” icons
+#      There is a abnormal things on last step.All the functions working well.I checked with manually and it passed.But with automation i could not

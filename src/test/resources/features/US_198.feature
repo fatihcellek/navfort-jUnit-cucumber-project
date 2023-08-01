@@ -10,7 +10,7 @@ Feature:As a user, I want to see edit car info icons from the Vehicle page.
 	@B29G2-225
 	Scenario: I want to see edit car info icons from the Vehicle page
 		Given user is on the login page
-		When user enters the driver information
+		When user enters the store manager information
 		And user hover over on the Fleet
 		And user click on vehicle
 		And user must see 3 dot"..." far right of the page

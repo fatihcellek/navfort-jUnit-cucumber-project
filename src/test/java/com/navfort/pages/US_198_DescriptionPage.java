@@ -17,7 +17,7 @@ public class US_198_DescriptionPage {
     public WebElement Vehicles;
 
 
-    @FindBy(xpath = "//tr[9]/td[20]/div/div/a")
+    @FindBy(xpath = "//a[@class='dropdown-toggle']")
     public WebElement Dots;
 
 
